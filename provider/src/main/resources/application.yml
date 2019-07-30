@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    sentinel:
+      eager: true
+      transport:
+        dashboard: localhost:8080
+      datasource:
+        ds1.nacos.server-addr: localhost:8848
+        ds1.nacos.data-id: sentinel-flow-rule
+        ds1.nacos.rule-type: flow
