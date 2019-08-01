@@ -22,7 +22,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>8</java.version>
         <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
-        <spring.cloud.alibaba.version>0.9.1.BUILD-SNAPSHOT</spring.cloud.alibaba.version>
+        <spring.cloud.alibaba.version>2.1.0.RELEASE</spring.cloud.alibaba.version>
     </properties>
 
     <modules>
